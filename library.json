@@ -1,7 +1,7 @@
 {
   "name" : "kbide-plugin-buzzer-t-watch",
-  "title": "buzzer-t-watch",
-  "keywords": "buzzer-t-watch, esp32, esp8266, arduino",
+  "title": "buzzer (Only for T-watch board)",
+  "keywords": "buzzer-t-watch, esp32, arduino",
   "description": "buzzer-t-watch plugin for KB-IDE",
   "category":"",
   "git": "https://github.com/cmmc-kbide/kbide-plugin-buzzer-t-watch/",
