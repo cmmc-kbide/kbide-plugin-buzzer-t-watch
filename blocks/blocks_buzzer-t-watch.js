@@ -6,7 +6,8 @@ var music_colour = 120;
 Blockly.Blocks['music_setup'] = {
     init: function () {
         this.appendDummyInput()
-            .appendField("Buzzer Setup");
+            .appendField("Buzzer setup pin")
+            .appendField(new Blockly.FieldNumber(21), "PIN");
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
         this.setColour(music_colour);

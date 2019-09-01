@@ -12,6 +12,7 @@ const notes = {
 // =============================================================================
 
 Blockly.JavaScript['music_setup'] = function (block) {
+    var number_pin = block.getFieldValue('PIN');
     var code =
 `
 #EXTINC
@@ -23,7 +24,7 @@ KB_music music;
 #END
 
 #SETUP
-music.begin();
+music.begin(${number_pin});
 #END
 `;
     return code;
